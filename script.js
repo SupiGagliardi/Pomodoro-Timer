@@ -119,8 +119,6 @@ pauseButton.addEventListener('click', () => {
     } else {
         breakStatus.classList.add('paused-timer');
     }
-
-
 })
 
 
