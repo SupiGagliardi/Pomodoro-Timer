@@ -160,18 +160,26 @@ body, html {
             opacity: 1;
             transition: 0.2s;
 
+            .arrows:hover {
+                height: 0.36em;
+            }
+
             @include small {
                 height: 0.3em;
+                .arrows:hover {
+                    height: 0.35em;
+                }
             }
 
             @include smaller {
                 height: 0.2em;
             }
         }
-        
+
         .arrows:hover {
             height: 0.36em;
         }
+        
     }
 
     .work-timer > p {
@@ -368,13 +376,16 @@ body, html {
 
         @include small {
             height: 0.3em;
+            .arrows:hover {
+                height: 0.35em;
+            }
         }
 
         @include smaller {
             height: 0.2em;
         }
     }
-    
+
     .arrows:hover {
         height: 0.36em;
     }

@@ -158,9 +158,16 @@ body, html {
   transition: 0.2s;
 }
 
+.left-column .work-timer .arrows .arrows:hover {
+  height: 0.36em;
+}
+
 @media (max-width: 660px) {
   .left-column .work-timer .arrows {
     height: 0.3em;
+  }
+  .left-column .work-timer .arrows .arrows:hover {
+    height: 0.35em;
   }
 }
 
@@ -429,6 +436,9 @@ body, html {
 @media (max-width: 660px) {
   .right-column .arrows {
     height: 0.3em;
+  }
+  .right-column .arrows .arrows:hover {
+    height: 0.35em;
   }
 }
 
