@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pomodoro timer</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="icons/tomato (1).png">
     <script src="script.js" defer></script>
 
 </head>
+
 <body>
     <div class="container">
-        
+
+        <div class="tablet-logo">
+            <p>Pomodoro timer</p>
+            <img src="icons/tomato-tablet.svg" alt="tomato logo">
+        </div>
         <div class="left-column">
             <img class="logo" src="icons/Group 9.svg" alt="Pomodoro Timer">
             <div class="work-timer">
@@ -33,6 +39,12 @@
         </div>
 
         <div class="right-column">
+
+            <div class="filler">
+                <a href="https://github.com/SupiGagliardi/Pomodoro-Timer" target="_blank">
+                    <img class="git-logo" src="icons/github-image.svg" alt="github link">
+                </a>
+            </div>
             <div class="break-timer">
                 <div>
                     <img id="break-arrowup" class="arrows" src="icons/right.svg" alt="arrow-up">
@@ -44,14 +56,16 @@
             </div>
             <div class="break-restart">
                 <h2 id="break-status" class="break-word">Break</h2>
-                <img id="restart-btn" src="icons/restart.svg" alt="">
+                <img id="restart-btn" class="restart-btn" src="icons/restart.svg" alt="">
             </div>
         </div>
-        <footer>
-            <a href="https://github.com/SupiGagliardi/Pomodoro-Timer" target="_blank">
-                <img class="git-logo" src="icons/github-image.svg" alt="github link">
-            </a>
-        </footer>
     </div>
 </body>
+
 </html>
+
+<!--             <a href="https://github.com/SupiGagliardi/Pomodoro-Timer" target="_blank">
+                <img class="git-logo" src="icons/github-image.svg" alt="github link">
+            </a>
+        
+        -->
